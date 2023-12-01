@@ -1,1 +1,384 @@
-# github.io
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cordoba Nicolás TP2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-menu navbar-dark pb-3 py-lg-0
+        fixed-top">
+            <div class="container-sm">
+                <a class="navbar-brand" href="#">
+                    <img src="Img/logo.png" width="65" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navegacion"
+                    aria-controls="navegacion" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navegacion">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#menu">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#beneficios">Beneficios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#escribenos">Escribenos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#faq">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+
+                            <a class="btn btn-reg mt-3 mt-lg-0 ms-lg-5" href="#">¡Únete a nosotros!</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mt-5">
+                    <h1 class="display-1 fw-bold mt-5">Zona Zero</h1>
+                    <h2 class="display-5"><strong class="fw-bold">Eleva tu potencial</strong>
+                    </h2>
+                </div>
+                <div class="col-md-7">
+                    <p class="lead fs-3 text-light">Solo en <strong class="fw-bold text-warning"> Zona Zero</strong>
+                        podrás descubrir la revolución de tu potencial. Más que un gimnasio, es un refugio de
+                        crecimiento personal. <strong class="fw-bold text-warning">Evolucionar</strong>" .</p>
+                    <a href="#" class="btn btn-outline-secondary inscribete-btn">
+                        Súmate acá
+                        <i class="bi bi-emoji-sunglasses-fill"></i>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="menu" class="py-2 py-lg-4">
+        <div class="container pt-lg-5">
+            <div class="row">
+                <div class="col-12 mt-5">
+                    <h2 class="display-3 mt-5 text-light"><strong class="fw-bold">"Empieza de zero</strong>"</h2>
+                </div>
+
+                <div class="col-md-6 col-lg-5">
+
+                    <p class="lead text-warning">En <strong class="fw-bold">Zona Zero</strong> nos comprometemos a
+                        propocionarte una experiencia de fitness excepcional. Contamos con servicios de primera
+                        categoría y equipamiento de vanguardia para<strong class="fw-bold">potenciar tu
+                            rendimiento</strong>, etc.</p>
+                    <p class="lead text-light">Inscribirte en nuestro gimnasio es dar el primer paso hacia una
+                        transformación completa. ¡Descubre un espacio donde la excelencia y tu bienestar se encuentran
+                        en cada sesión!</p>
+                </div>
+                <div class="col-md-6 col-lg-7 py-3">
+                    <video class="img-fluid" controls>
+                        <source src="Multimedia/gimnasio.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="beneficios" class="bg-secondary py-3 py-lg-5">
+        <div class="container">
+            <div class="row justify-content-center pb-3">
+                <div class="col-8 col-11">
+                    <h2 class="display-4 mt-5">¿Que tenemos para vos?</h2>
+                    <p class="lead mt-3">Ofrecemos una amplia variedad de máquinas y profesionales que estarán a tu
+                        disposición. Además, contamos con una cafetería donde podrás adquirir alimentos y bebidas de
+                        acuerdo con tu dieta. También disponemos de suplementos alimenticios a la venta.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="carouselExample" class="carousel slide container py-5">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="card col-md-3 ms-auto" id="beneficios2">
+                            <img src="Img/maquina.jpg" class="card-img-top" alt="f1">
+                            <div class="card-body">
+                                <h2 class="card-title"><strong class="fw-bold">Variedad de maquinas</strong></h2>
+                                <p class="card-text">Contamos con una amplia gama de máquinas de entrenamiento que
+                                    destacan por su variedad y calidad excepcional. Desde equipos de cardio de última
+                                    generación hasta máquinas de resistencia y pesas libres, ofrecemos opciones para
+                                    todos los niveles de condición física.</p>
+                            </div>
+                        </div>
+                        <div class="card col-md-3" id="beneficios2">
+                            <img src="Img/suplementos.jpg" class="card-img-top" alt="f2">
+                            <div class="card-body">
+                                <h2 class="card-title"><strong class="fw-bold">Suplementos</strong></h2>
+                                <p class="card-text">Te brindamos suplementos deportivos ENA, ricos en proteínas y
+                                    energía. Ya sea optando por nuestras bebidas embotelladas o solicitando una
+                                    personalizada en la barra con el sabor que prefieras, te ofrecemos opciones
+                                    adaptadas a tu estilo. Potencia tu entrenamiento con una calidad superior.</p>
+                            </div>
+                        </div>
+                        <div class="card col-md-3 me-auto" id="beneficios2">
+                            <img src="Img/entrenador.jpg" class="card-img-top" alt="f2">
+                            <div class="card-body">
+                                <h2 class="card-title"><strong class="fw-bold">Personal calificado</strong></h2>
+                                <p class="card-text">contamos con entrenadores personales excepcionales que te guiarán
+                                    en cada paso de tu viaje de fitness. Desde la planificación de programas
+                                    personalizados hasta la motivación constante.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="card col-md-3 ms-auto" id="beneficios2">
+                            <img src="Img/precio.jpg" class="card-img-top" alt="f1">
+                            <div class="card-body">
+                                <h2 class="card-title"><strong class="fw-bold">Precios accesibles</strong></h2>
+                                <p class="card-text">En Zona Zero, creemos que la salud y la excelencia en el fitness
+                                    deben estar al alcance de todos, y nuestros precios y opciones de pago reflejan ese
+                                    compromiso. ¡Únete a nosotros y descubre cómo lograr tus objetivos de
+                                    acondicionamiento físico puede ser accesible y conveniente!</p>
+                            </div>
+                        </div>
+                        <div class="card col-md-3" id="beneficios2">
+                            <img src="Img/maquina2.jpg" class="card-img-top" alt="f2">
+                            <div class="card-body">
+                                <h2 class="card-title"><strong class="fw-bold">Instalaciones de primer nivel</strong>
+                                </h2>
+                                <p class="card-text">Nuestras instalaciones de primer nivel destacan por su amplitud y
+                                    limpieza impecable. Con espacios diseñados para cada aspecto de tu rutina de
+                                    entrenamiento, te ofrecemos un ambiente higiénico y acogedor. Desde áreas de
+                                    estiramiento hasta espacios para clases grupales, cada rincón refleja nuestro
+                                    compromiso con la excelencia.</p>
+                            </div>
+                        </div>
+                        <div class="card col-md-3 me-auto" id="beneficios2">
+                            <img src="Img/comunidad.jpg" class="card-img-top" alt="f2">
+                            <div class="card-body">
+                                <h2 class="card-title"><strong class="fw-bold"></strong>Formar parte de una gran
+                                    comunidad</h2>
+                                <p class="card-text">Aquí en Zona Zero, no solo te damos acceso a un gimnasio, sino a
+                                    una comunidad vibrante. Descubre cómo, juntos, no solo nos esforzamos por alcanzar
+                                    nuestras metas, sino que también construimos una red de apoyo fuerte y solidaria.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section id="escribenos" class="bg-secondary text-light py-3">
+        <div class="container bg-dark bg-opacity-50 text-light p-3 rounded-5 py-5">
+            <div class="row">
+                <div class="col">
+                    <h2 class="display-4 text-warning text-center"><strong class="fw-bold">¡Escbribinos!</strong></h2>
+                </div>
+            </div>
+            <form action="algo.php" class="row needs-validation" novalidate>
+                <div class="col-10 mx-auto col-lg-9">
+                    <div class="mb-3">
+
+                        <label for="apellido_nombre" class="form-label">
+                            Apellido y nombre
+                        </label>
+
+                        <input type="text" class="form-control form-control-lg" id="apellido_nombre"
+                            placeholder="Completar datos*" required>
+                        <div class="valid-feedback">
+                            Apellido y nombre. ok!
+                        </div>
+                        <div class="invalid-feedback">
+                            Apellido y nombre. Incompleto!
+                        </div>
+                    </div>
+                    <div class="mb-3">
+
+                        <label for="e-mail" class="form-label">
+                            E-mail
+                        </label>
+
+                        <input type="email" class="form-control form-control-lg" id="e-mail"
+                            placeholder="Completar datos*" required>
+                        <div class="valid-feedback">
+                            e-mail. ok!
+                        </div>
+                        <div class="invalid-feedback">
+                            e-mail. Incompleto!
+                        </div>
+                    </div>
+                    <div class="mb-3">
+
+                        <label for="consulta_mensaje" class="form-label">
+                            Consulta / Mensaje
+                        </label>
+                        <textarea id="consulta_mensaje" class="form-control form-control-lg" rows="3" maxlength="500"
+                            placeholder="Dejanos tu inquietud........">
+                        </textarea>
+                        <p class="small text-light">Máxima cantitindad de caracteres 600</p>
+
+                    </div>
+                    <div class="mb-3">
+
+                        <button type="submit" class="btn btn-success">Enviar consulta</button>
+                        <p class="small mt-3 text-warning">(*)Campos obligatorios</p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section id="faq" class="py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="display-4 text-warning"><strong>Preguntas frecuentes</strong></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="accordion" id="pregutnas-frecuntes">
+                    <div class="accordion-item">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#pregunta1" aria-expanded="true" aria-controls="pregunta1">
+                                ¿Hacen rutinas personalizadas?
+                            </button>
+                        </h3>
+                        <div id="pregunta1" class="accordion-collapse collapse show" data-bs-parent="#respuesta1">
+                            <div class="accordion-body">
+                                <p>
+                                    <strong>Sí, en Zona Zero nos enorgullece ofrecer rutinas personalizadas</strong>
+                                    adaptadas a tus metas individuales. Nuestros excepcionales entrenadores personales
+                                    están dedicados a diseñar programas de entrenamiento específicos para cada miembro,
+                                    garantizando que cada sesión sea efectiva y alinee con tus objetivos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#pregunta2" aria-expanded="false" aria-controls="pregunta2">
+                                ¿Ofrecen opciones de nutrición y suplementos?
+                            </button>
+                        </h3>
+                        <div id="pregunta2" class="accordion-collapse collapse" data-bs-parent="#respuesta2">
+                            <div class="accordion-body">
+                                <p>
+                                    <strong>Sí</strong> , contamos con una cafetería que ofrece alimentos y bebidas de
+                                    acuerdo con las necesidades dietéticas, así como suplementos alimenticios de alta
+                                    calidad.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#pregunta3" aria-expanded="false" aria-controls="#pregunta3">
+                                ¿Hay restricciones de edad?
+                            </button>
+                        </h3>
+                        <div id="pregunta3" class="accordion-collapse collapse" data-bs-parent="#respuesta3">
+                            <div class="accordion-body">
+                                <strong>No, no contamos con restricciones de edad</strong> Zona Zero da la bienvenida a
+                                personas de todas las edades. Contamos con programas adaptados para diferentes niveles
+                                de condición física y necesidades.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#pregunta4" aria-expanded="false" aria-controls="#pregunta4">
+                                ¿Ofrecen membresías familiares o descuentos corporativos?
+                            </button>
+                        </h3>
+                        <div id="pregunta4" class="accordion-collapse collapse" data-bs-parent="#respuesta3">
+                            <div class="accordion-body">
+                                <p class="lead">
+                                    <strong>Sí, contamos con opciones de membresías familiares y descuentos
+                                        corporativos.</strong>
+                                </p>
+                                <p>Consulta con nuestro equipo de atención al cliente para conocer los detalles y
+                                    beneficios disponibles.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <div class="mapa py-4">
+        <div class="ratio ratio-16x9"><iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.992669539756!2d-58.39857512534125!3d-34.60434687295399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaea670d4e67%3A0x2198c954311ad6d9!2sDa%20Vinci%20%7C%20Primera%20Escuela%20de%20Arte%20Multimedial!5e0!3m2!1ses-419!2sar!4v1698440171861!5m2!1ses-419!2sar"
+                height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    </div>
+
+    <footer class="py-2 py-lg-4">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <p>Buscanos en nuestras redes sociales y en Whatsapp</p>
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com" target="_blank" title="Instagram">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com" target="_blank" title="Facebook">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://twitter.com" target="_blank" title="X">
+                                <i class="bi bi-twitter-x"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://api.whatsapp.com/send/?phone=1144005440" target="_blank" title="Whatsapp">
+                                <i class="bi bi-whatsapp"></i>
+                            </a>
+                        </li>
+
+                    </ul>
+                    <p>Cordoba Nicolás Natanael DMT2-2023</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
